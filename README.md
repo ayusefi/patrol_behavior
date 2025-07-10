@@ -77,7 +77,7 @@ waypoints:
 
 ## Demo
 
-[![Patrol Behavior Demo]()](https://www.youtube.com/watch?v=EBA5DjIU3Sk)
+[![Patrol Behavior Demo](https://img.youtube.com/vi/EBA5DjIU3Sk/0.jpg)](https://www.youtube.com/watch?v=EBA5DjIU3Sk)
 
 ## References
 - [bcr_bot robot platform](https://github.com/blackcoffeerobotics/bcr_bot)
