@@ -1,0 +1,21 @@
+# Ignore build, install, and log directories
+build/
+install/
+log/
+
+# Ignore ROS 2 and colcon files
+*.pyc
+*.swp
+*.DS_Store
+.colcon*
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore YAML and launch logs
+*.log
+
+# Ignore VSCode and CLion settings
+.vscode/
+.idea/
