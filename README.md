@@ -75,6 +75,10 @@ waypoints:
     qw: 0.7071
 ```
 
+## Demo
+
+[![Patrol Behavior Demo]()]()
+
 ## References
 - [bcr_bot robot platform](https://github.com/blackcoffeerobotics/bcr_bot)
 - [Nav2 Navigation Stack](https://navigation.ros.org/)
