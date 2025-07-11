@@ -51,6 +51,24 @@ colcon build --packages-select patrol_behavior
    ros2 run patrol_behavior patrol_node --ros-args -p waypoints_yaml:=/absolute/path/to/waypoints.yaml
    ```
 
+## Launching the Full Patrol Application
+
+You can now launch the entire patrol application (Gazebo simulation, Nav2 stack, RViz, and patrol_behavior_node) with a single command:
+
+```bash
+ros2 launch patrol_behavior patrol.launch.py
+```
+
+This will:
+- Start the Gazebo simulation for the bcr_bot
+- Launch the Nav2 stack
+- Open RViz with pre-configured displays
+- Start the patrol_behavior_node
+
+**Requirements:**
+- Make sure the `bcr_bot` package is built and available in your workspace.
+- Ensure the `patrol.rviz` config file exists in `patrol_behavior/rviz/`.
+
 ## Parameters
 - `waypoints_yaml` (string): Path to the YAML file containing the waypoints. Default: `waypoints.yaml` in the package directory.
 

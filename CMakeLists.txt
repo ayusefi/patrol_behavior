@@ -20,4 +20,8 @@ target_link_libraries(patrol_node yaml-cpp)
 install(TARGETS patrol_node
   DESTINATION lib/${PROJECT_NAME})
 
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}/
+)
+
 ament_package()
